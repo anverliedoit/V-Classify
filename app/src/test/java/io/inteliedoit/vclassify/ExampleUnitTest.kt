@@ -1,4 +1,4 @@
-package io.vclassify.inteliedoit.vclass
+package io.inteliedoit.vclassify
 
 import org.junit.Test
 
