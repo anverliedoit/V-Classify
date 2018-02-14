@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.main.ScheduleListFragment" />
-        <activity android:name=".ui.main.TeacherProfileFragment"></activity>
+        <activity android:name=".ui.main.TeacherProfileFragment" />
+        <activity android:name=".ui.main.UserProfileActivity"></activity>
     </application>
 
 </manifest>

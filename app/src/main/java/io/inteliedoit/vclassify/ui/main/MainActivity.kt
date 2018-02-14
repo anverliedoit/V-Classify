@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity
 import io.inteliedoit.vclassify.R
 import android.support.v4.view.ViewPager
 import android.support.design.widget.TabLayout
-import java.nio.file.Files.size
 import android.support.v4.app.FragmentPagerAdapter
 import android.view.View
 
@@ -16,7 +15,6 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.Toolbar;
 
 import java.util.ArrayList;
-import java.util.List;
 
 
 class MainActivity : AppCompatActivity() {
@@ -44,8 +42,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupViewPager(viewPager: ViewPager?) {
         val adapter = ViewPagerAdapter(supportFragmentManager)
-        adapter.addFragment(ScheduleListFragment(), "ONE")
-        adapter.addFragment(UserProfileFragment(), "TWO")
+        adapter.addFragment(ScheduleListFragment(), "Schedule")
+        adapter.addFragment(VoiceCommandFragment(), "Profile")
         viewPager!!.adapter = adapter
     }
 
