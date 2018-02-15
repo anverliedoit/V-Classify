@@ -13,16 +13,16 @@ import io.inteliedoit.vclassify.R
 /**
  * A simple [Fragment] subclass.
  */
-class VoiceCommandFragment : Fragment() {
+class ScheduleFragment : Fragment() {
 
-    fun UserProfileFragment(){
-
+    fun OneFragment() {
+        // Required empty public constructor
     }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater!!.inflate(R.layout.fragment_main_voice_command, container, false)
+        return inflater!!.inflate(R.layout.fragment_main_schedule_list, container, false)
     }
 
 }// Required empty public constructor

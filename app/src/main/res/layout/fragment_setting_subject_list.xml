@@ -5,9 +5,13 @@
     tools:context="io.inteliedoit.vclassify.ui.setting.SubjectListFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_view_subject"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true">
+    </android.support.v7.widget.RecyclerView>
 
 </FrameLayout>
