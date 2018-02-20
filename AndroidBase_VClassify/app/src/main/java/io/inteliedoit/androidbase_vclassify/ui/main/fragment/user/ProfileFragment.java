@@ -1,4 +1,4 @@
-package io.inteliedoit.androidbase_vclassify.ui.main.fragment;
+package io.inteliedoit.androidbase_vclassify.ui.main.fragment.user;
 
 
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import io.inteliedoit.androidbase_vclassify.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ScheduleListFragment extends Fragment {
+public class ProfileFragment extends Fragment {
 
 
-    public ScheduleListFragment() {
+    public ProfileFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class ScheduleListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main_schedulelist, container, false);
+        return inflater.inflate(R.layout.fragment_user_profile, container, false);
     }
 
 }

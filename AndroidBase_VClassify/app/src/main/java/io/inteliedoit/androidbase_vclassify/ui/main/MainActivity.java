@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar = getSupportActionBar();
 
         // load the store fragment by default
-        toolbar.setTitle("Shop");
+        toolbar.setTitle("Schedule");
         loadFragment(new ScheduleListFragment());
     }
 
