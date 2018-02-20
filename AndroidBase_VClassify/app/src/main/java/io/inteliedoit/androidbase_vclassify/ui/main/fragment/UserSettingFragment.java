@@ -31,7 +31,7 @@ public class UserSettingFragment extends Fragment {
     public UserSettingFragment() {
         // Required empty public constructor
     }
-  
+
 
 
     @Override
@@ -51,9 +51,9 @@ public class UserSettingFragment extends Fragment {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getFragmentManager ());
-        adapter.addFragment(new SubjectListFragment(), "ONE");
-        adapter.addFragment(new ClassListFragment(), "TWO");
-        adapter.addFragment(new ProfileFragment(), "THREE");
+        adapter.addFragment(new SubjectListFragment(), "Subject");
+        adapter.addFragment(new ClassListFragment(), "Class");
+        adapter.addFragment(new ProfileFragment(), "Profile");
         viewPager.setAdapter(adapter);
     }
 
