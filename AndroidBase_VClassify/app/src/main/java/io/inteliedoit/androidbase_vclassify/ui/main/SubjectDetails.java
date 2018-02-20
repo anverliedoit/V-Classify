@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import io.inteliedoit.androidbase_vclassify.R;
 
-public class UserSettingActivity extends AppCompatActivity {
+public class SubjectDetails extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_usersetting);
+        setContentView(R.layout.activity_main_subjectdetails);
     }
 }
