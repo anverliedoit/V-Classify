@@ -11,9 +11,11 @@ import android.view.MenuItem;
 
 
 import io.inteliedoit.androidbase_vclassify.R;
-import io.inteliedoit.androidbase_vclassify.ui.main.fragment.ScheduleListFragment;
+import io.inteliedoit.androidbase_vclassify.ui.main.fragment.SubjectListViewGradeFragment;
 import io.inteliedoit.androidbase_vclassify.ui.main.fragment.UserSettingFragment;
 import io.inteliedoit.androidbase_vclassify.ui.main.fragment.VoiceCommandFragment;
+import io.inteliedoit.androidbase_vclassify.ui.main.fragment.user.SubjectListFragment;
+import io.inteliedoit.androidbase_vclassify.ui.main.fragment.viewing.VGFirstYearFirtSemFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         // load the store fragment by default
         toolbar.setTitle("Schedule");
-        loadFragment(new ScheduleListFragment());
+        loadFragment(new SubjectListViewGradeFragment());
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -42,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
             Fragment fragment;
             switch (item.getItemId()) {
                 case R.id.navigation_schedule:
-                    toolbar.setTitle("Schedule");
-                    fragment = new ScheduleListFragment();
+                    toolbar.setTitle("Subject");
+                    fragment = new SubjectListViewGradeFragment();
                     loadFragment(fragment);
                     return true;
                 case R.id.navigation_command:

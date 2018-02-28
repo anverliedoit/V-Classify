@@ -50,4 +50,6 @@
     <color name="Project">#7a587c</color>
     <color name="Quiz">#be0eee</color>
     <color name="MainColor">#448ccb</color>
+
+    <color name="Black">#000000</color>
 </resources>

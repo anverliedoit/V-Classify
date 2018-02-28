@@ -1,0 +1,651 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.inteliedoit.androidbase_vclassify.ui.main.fragment.viewing.VGFirstYearFirtSemFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:background="@color/colorDarkGray"
+                android:layout_width="match_parent"
+                android:layout_height="30sp">
+
+                <TextView
+                    android:textColor="@color/colorWhite"
+                    android:layout_gravity="center|left"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Subject List"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textColor="@color/colorWhite"
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="Final Grades"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="@color/Blue">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Prog 113"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Programming 1"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center|right"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/subject1_gradetxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|top"
+                                android:layout_marginTop="10dp"
+                                android:text="0.00"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/subject1_remarktxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:text="NOT SET"
+                                android:textSize="14dp" />
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="@color/colorLightGray">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="CF 113"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Computer Fundamentals"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center|right"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/subject2_gradetxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|top"
+                                android:layout_marginTop="10dp"
+                                android:text="0.00"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/subject2_remarktxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:text="NOT SET"
+                                android:textSize="14dp" />
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="@color/Blue">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="OP 113"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Office Productivity"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center|right"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/subject3_gradetxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|top"
+                                android:layout_marginTop="10dp"
+                                android:text="0.00"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:text="NOT SET"
+                                android:textSize="14dp" />
+
+                            <TextView
+                                android:id="@+id/subject3_remarktxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:text="NOT SET"
+                                android:textSize="14dp" />
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="@color/colorLightGray">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Math 115"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="College Algebra"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center|right"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/subject4_gradetxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|top"
+                                android:layout_marginTop="10dp"
+                                android:text="0.00"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/subject4_remarktxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:text="NOT SET"
+                                android:textSize="14dp" />
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="@color/Blue">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="English 113"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Study and Thinking Skill in English "
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center|right"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/subject5_gradetxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|top"
+                                android:layout_marginTop="10dp"
+                                android:text="0.00"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/subject5_remarktxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:text="NOT SET"
+                                android:textSize="14dp" />
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="@color/colorLightGray">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Filipino 113c"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Komunikasyon sa Akademikong Filipino"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center|right"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/subject6_gradetxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|top"
+                                android:layout_marginTop="10dp"
+                                android:text="0.00"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/subject6_remarktxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:text="NOT SET"
+                                android:textSize="14dp" />
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="@color/Blue">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Soc 213"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Society and Culture with Familty Plann.."
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center|right"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/subject7_gradetxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|top"
+                                android:layout_marginTop="10dp"
+                                android:text="0.00"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/subject7_remarktxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:text="NOT SET"
+                                android:textSize="14dp" />
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="@color/colorLightGray">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hum 113"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Music and Perporming Arts"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center|right"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/subject8_gradetxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|top"
+                                android:layout_marginTop="10dp"
+                                android:text="0.00"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/subject8_remarktxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:text="NOT SET"
+                                android:textSize="14dp" />
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="@color/Blue">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="PE 112"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Physical Fitness"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center|right"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/subject9_gradetxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|top"
+                                android:layout_marginTop="10dp"
+                                android:text="0.00"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/subject9_remarktxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:text="NOT SET"
+                                android:textSize="14dp" />
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:background="@color/colorLightGray">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|left"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NSTP 1"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="National Services Training Program"
+                                android:textSize="14dp" />
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center|right"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/subject10_gradetxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|top"
+                                android:layout_marginTop="10dp"
+                                android:text="0.00"
+                                android:textColor="@color/Black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/subject10_remarktxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginBottom="10dp"
+                                android:text="NOT SET"
+                                android:textSize="14dp" />
+
+                        </FrameLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"></FrameLayout>
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
